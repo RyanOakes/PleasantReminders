@@ -6,6 +6,8 @@
 //  Copyright © 2016 Oakes Inc. All rights reserved.
 //
 
+import GameKit
+
 struct FactModel {
     
     let facts = [
@@ -19,4 +21,11 @@ struct FactModel {
         "Some penguins can leap 2-3 meters out of the water.",
         "On average, it takes 66 days to form a new habit.",
         "Mammoths still walked the Earth when the Great Pyramid was being built." ]
+    
+    func getRandomFact() -> String {
+        let randomNumber =
+            GKRandomSource.sharedRandom().nextIntWithUpperBound(facts.count)
+        
+        return facts[randomNumber]
+    }
 }
