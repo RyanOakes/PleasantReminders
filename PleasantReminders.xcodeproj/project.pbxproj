@@ -13,6 +13,7 @@
 		05D6F24F1D4FB8E200FD5618 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05D6F24E1D4FB8E200FD5618 /* Assets.xcassets */; };
 		05D6F2521D4FB8E200FD5618 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05D6F2501D4FB8E200FD5618 /* LaunchScreen.storyboard */; };
 		05D6F25A1D4FCA7D00FD5618 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6F2591D4FCA7D00FD5618 /* FactModel.swift */; };
+		05D6F25C1D4FEC8200FD5618 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05D6F25B1D4FEC8200FD5618 /* ColorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		05D6F2511D4FB8E200FD5618 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		05D6F2531D4FB8E200FD5618 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05D6F2591D4FCA7D00FD5618 /* FactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		05D6F25B1D4FEC8200FD5618 /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				05D6F2501D4FB8E200FD5618 /* LaunchScreen.storyboard */,
 				05D6F2531D4FB8E200FD5618 /* Info.plist */,
 				05D6F2591D4FCA7D00FD5618 /* FactModel.swift */,
+				05D6F25B1D4FEC8200FD5618 /* ColorModel.swift */,
 			);
 			path = PleasantReminders;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				05D6F25A1D4FCA7D00FD5618 /* FactModel.swift in Sources */,
 				05D6F24A1D4FB8E200FD5618 /* ViewController.swift in Sources */,
 				05D6F2481D4FB8E200FD5618 /* AppDelegate.swift in Sources */,
+				05D6F25C1D4FEC8200FD5618 /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
