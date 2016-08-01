@@ -12,11 +12,11 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var funFactLabel: UILabel!
     
-    let facts = ["Ants stretch after waking up", "The sun will eventually engulf the Earth!"]
+    let factModel = FactModel()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        funFactLabel.text = facts[0]
+        funFactLabel.text = factModel.facts[0]
     }
 
     override func didReceiveMemoryWarning() {
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
         
 //        funFactLabel.text = "Another interesting fact!"
         
-        funFactLabel.text = facts[1]
+        funFactLabel.text = factModel.facts[1]
     }
     
 }
