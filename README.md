@@ -1,4 +1,4 @@
-Solarized dark             |  Solarized Ocean
+Example #1            |  Example #2
 :-------------------------:|:-------------------------:
 ![](PleasantReminders/Assets.xcassets/1.png)  |  ![](PleasantReminders/Assets.xcassets/2.png)
 
