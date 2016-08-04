@@ -1,6 +1,5 @@
 ## **PleasantReminders** is a Swift iOS app that provides users with random (often absurd) trivia at the press of a button.
 
-***
 
 
 Example #1            |  Example #2
